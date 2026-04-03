@@ -40,12 +40,19 @@ class Amazon
 	{
 		System.out.println("Invoking search by product name :" +productName);
 		String msg=null;
-		
+		boolean isLogin=login("ramya bk","ramya@123");
+		if(isLogin){
+			System.out.println("login successful");
 		if(productName!=null)
 		{
 			msg="Searched productname :" +productName+ " is available";
 		}
+		
+		}else{
+			msg="invalid username and psw";
+		}
 		return msg;
+		
 	}
 	
 	public String search(String productName,String productBrand)

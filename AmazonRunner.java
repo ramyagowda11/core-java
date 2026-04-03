@@ -2,6 +2,7 @@ class AmazonRunner{
   public static void main(String []amazon){
 	  
     Amazon app =new Amazon();
+	/*
    
    boolean login=app.login("ramya bk","ramya@123");
    System.out.println(login);
@@ -24,5 +25,9 @@ class AmazonRunner{
    
    String msg5=app.search("vivo","vivo v27 pro","blue","funtouch","5 tb");
    System.out.println(msg5);
+   */
+   
+   String msg6=app.search("vivo");
+   System.out.println(msg6);
    }
 }
