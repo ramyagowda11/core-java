@@ -1,0 +1,83 @@
+what is java 
+  java is a programming language used to develop application and it is open source,object oriented,high level,interpreted programming language
+  
+  explain how java execution
+  we need towrite java code save the file using .java extention while running the code in cmd java compiler compile the code and covert one java class file that is not human understandable code jre will check the syntax and jvm will provide environment to run the code or execution,to compile code we give javac classname.java and to run use java classname.
+  
+  
+  what is data type and explain the types of data type
+  data type specify what kind of data to be stored in a variable or it specify what type of data user stored in a variable data type it may be primitive or nonprimitive dat type.
+  data type can be classified into 2 types 
+  1.primitive 
+  2.non primitive
+  
+  primitive:primitive data types are the data type that store single value and it has fixed size.
+  primitive data type are 8 types
+  
+1.integer :it store whole number for example   int age=21;
+  it has range in between 8 to 9
+2.float :it store whole number with factional part and at the end of the number use f like float average=2.33f;
+  default value of this will be 0.0f;
+3.double:it store whole number as well as factional which exceed the integer value  ex:double average=2.787878;
+  default value is 0.00;
+4.short:it store whole number it has range between  356 to 357 ex:short num=233;
+5.char:it store single value like char gender='f';
+6.boolean:it store only two value that is true or false ex:boolean isWorking=true;
+default value is false
+7.byte:it also store the number range between 126to 127
+ex:byte id:123;
+8.long:it store large number exceed the int value ex:long phonenumber=7672637676l;
+at the end of the digit use l.
+
+nonprimitive :it is created by the programmer to perform specific task
+types
+1.string:it store squence of character within the double quotes ex:String name="ramya";
+default value:null
+2.array:it store multiple value in a single variable using array index
+3.interface
+
+
+
+
+what is variable explain types of variable
+variable is a container for storing the value
+types 4 types 
+1.local variable:are declared inside the any method or block
+2.static variable:declare inside the class outside the method using static keyword
+3.instance variable:declare inside the class outside the method without using static keyword
+4parameterized variable:are declared witthin the paranthesis declare variable  
+
+
+what is array
+array is used to store multiple value in a single variable using index value
+array index value start from [0].
+
+
+what is method overloading
+method overloading means all the method have same name with differnt parameter.
+ex:public String name(String productName,String productbrand){
+}
+   public String name(String productName,String productcolor,int price);{
+   }
+   
+   
+what is method explain types of method
+method is a block of code 
+four ways to use
+.method with parameter with return type
+.method with parameter without return type
+.method without parameter with retuen type
+.method without parameter without return type
+
+method types
+1.static method:the static method use static keyword
+2.instance method :it does not use static keyword.
+
+
+what is constructor
+constructor is a specialized block of code it is invoked whwn it is called
+or
+constructor is a special function it intialize the object automatically.
+ 
+   
+    
