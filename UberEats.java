@@ -1,28 +1,28 @@
-class Zomato{
+class UberEats{
 	public double getPriceByFoodName(String foodName){
 		System.out.println("invoking getPriceByFoodName:"+foodName);
 		double price=0.0;
 		
-		if("veg taktak"==foodName){
+		if("egg rice"==foodName){
+			price=76;
+		}else if("biryani"==foodName){
 			price=120;
-		}else if("veg nargis"==foodName){
-			price=200;
-		}else if("veg kasturi"==foodName){
-			price=120;
-		}else if("veg toofani"==foodName){
-			price=120;
-		}else if("vag laziz"==foodName){
-			price=140;
-		}else if("veg diwani handi"==foodName){
-			price=150;
-		}else if("veg singapuri"==foodName){
-			price=140;
-		}else if("kolhapuri"==foodName){
-			price=110;
-		}else if("veg tawa"==foodName){
-			price=130;
-		}else if("chana masala"==foodName){
+		}else if("button biryani"==foodName){
+			price=280;
+		}else if("fish fry"==foodName){
+			price=70;
+		}else if("dragen chicken"==foodName){
+			price=180;
+		}else if("crab fry"==foodName){
+			price=180;
+		}else if("prawns fry"==foodName){
+			price=300;
+		}else if("chicken kabab"==foodName){
+			price=50;
+		}else if("gotti gojju"==foodName){
 			price=100;
+		}else if("butter roti"==foodName){
+			price=30;
 		}else{
 			price=0.0;
 		}

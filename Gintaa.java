@@ -1,27 +1,27 @@
-class Zomato{
-	public double getPriceByFoodName(String foodName){
+public class Gintaa {
+    public double getPriceByFoodName(String foodName){
 		System.out.println("invoking getPriceByFoodName:"+foodName);
 		double price=0.0;
 		
-		if("veg taktak"==foodName){
-			price=120;
-		}else if("veg nargis"==foodName){
-			price=200;
-		}else if("veg kasturi"==foodName){
-			price=120;
-		}else if("veg toofani"==foodName){
-			price=120;
-		}else if("vag laziz"==foodName){
-			price=140;
-		}else if("veg diwani handi"==foodName){
-			price=150;
-		}else if("veg singapuri"==foodName){
-			price=140;
-		}else if("kolhapuri"==foodName){
+		if("veg fried rice"==foodName){
+			price=100;
+		}else if("chilli garlic rice"==foodName){
 			price=110;
-		}else if("veg tawa"==foodName){
+		}else if("butter rice"==foodName){
 			price=130;
-		}else if("chana masala"==foodName){
+		}else if("paneer rice"==foodName){
+			price=150;
+		}else if("singapuri chicken rice"==foodName){
+			price=170;
+		}else if("chicken manchurian rice"==foodName){
+			price=180;
+		}else if("butter fried rice"==foodName){
+			price=130;
+		}else if("steam veg momos"==foodName){
+			price=80;
+		}else if("fry veg momos"==foodName){
+			price=100;
+		}else if("gravy veg momos"==foodName){
 			price=100;
 		}else{
 			price=0.0;
@@ -44,3 +44,5 @@ class Zomato{
 	}
 
 }
+    
+

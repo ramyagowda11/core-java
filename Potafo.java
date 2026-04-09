@@ -1,28 +1,28 @@
-class Zomato{
-	public double getPriceByFoodName(String foodName){
+public class Potafo {
+    public double getPriceByFoodName(String foodName){
 		System.out.println("invoking getPriceByFoodName:"+foodName);
 		double price=0.0;
 		
-		if("veg taktak"==foodName){
-			price=120;
-		}else if("veg nargis"==foodName){
-			price=200;
-		}else if("veg kasturi"==foodName){
-			price=120;
-		}else if("veg toofani"==foodName){
-			price=120;
-		}else if("vag laziz"==foodName){
-			price=140;
-		}else if("veg diwani handi"==foodName){
-			price=150;
-		}else if("veg singapuri"==foodName){
-			price=140;
-		}else if("kolhapuri"==foodName){
-			price=110;
-		}else if("veg tawa"==foodName){
-			price=130;
-		}else if("chana masala"==foodName){
+		if("sambar idli"==foodName){
+			price=60;
+		}else if("plan dosa"==foodName){
+			price=60;
+		}else if("butter masala dosa"==foodName){
 			price=100;
+		}else if("masala dosa"==foodName){
+			price=70;
+		}else if("paneer dosa"==foodName){
+			price=100;
+		}else if("onion paneer dosa"==foodName){
+			price=180;
+		}else if("paper plan dosa"==foodName){
+			price=80;
+		}else if("onion butter masala dosa"==foodName){
+			price=100;
+		}else if("dal vada"==foodName){
+			price=60;
+		}else if("fry idli"==foodName){
+			price=70;
 		}else{
 			price=0.0;
 		}
